@@ -11,7 +11,7 @@
 
 
 
-### 1. `grep -r` command 
+### 1. `grep -r` command:
 
 * The -r (or --recursive) option allows grep to search through all files and subdirectories in a given directory. This can be useful when searching for a particular string in multiple files.
 
@@ -45,7 +45,7 @@ Sources: I use the **ChatGPT** to find how the command is used, and I also looke
   
 
 
-### 2. `grep -w` command 
+### 2. `grep -w` command:
 
 * The -w option only matches the whole word instead of a substring.
 
@@ -77,7 +77,7 @@ Sources: I use the **ChatGPT** to find how the command is used, and I also looke
 Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
 
 
-### 3. `grep -n` command
+### 3. `grep -n` command:
 
 * The `-n` option displays the line number along with the matching line.
 
@@ -111,7 +111,7 @@ Sources: I use the **ChatGPT** to find how the command is used, and I also looke
 
 
 
-### 4. `grep -i` command 
+### 4. `grep -i` command: 
 
 * This option is used to perform case-insensitive search.
 
