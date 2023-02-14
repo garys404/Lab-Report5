@@ -16,17 +16,23 @@
 
 ### 1. `grep -n` command 
 
-*The `-n` option displays the line number along with the matching line.
+* The `-n` option displays the line number along with the matching line.
 
 #### Example 1:
- ![Image](VScodeDownload.png)
+  The input of the command:
+ `garysong@Garys-MacBook-Pro docsearch-main % grep -n "Beijing" find-results.txt`
+ 
+  The output of the command:
+ `212:written_2//travel_guides/berlitz2/Beijing-History.txt
+  223:written_2//travel_guides/berlitz2/Beijing-WhereToGo.txt
+  235:written_2//travel_guides/berlitz2/Beijing-WhatToDo.txt`
 
 #### Example 2:
  ![Image](VScodeDownload.png)
 
 ### 2. `grep -w` command 
 
-*The -w option only matches the whole word instead of a substring.
+* The -w option only matches the whole word instead of a substring.
 
 #### Example 1:
  ![Image](VScodeDownload.png)
@@ -36,7 +42,7 @@
 
 ### 3. `grep -v` command
 
-*The -v option inverts the match, so only the non-matching lines are displayed.
+* The -v option inverts the match, so only the non-matching lines are displayed.
 
 #### Example 1:
  ![Image](VScodeDownload.png)
@@ -45,7 +51,7 @@
 
 ### 4. `grep -i` command 
 
-*This option is used to perform case-insensitive search.
+* This option is used to perform case-insensitive search.
 
 #### Example 1:
  ![Image](VScodeDownload.png)
