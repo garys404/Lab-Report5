@@ -17,7 +17,8 @@
 
 
 
-#### Example 1:
+#### * Example 1:
+
   The input of the command:
    ![Image](input1)
   
@@ -29,7 +30,7 @@
 
 
 
-#### Example 2:
+#### * Example 2:
   The input of the command:
    ![Image](input2)
   
@@ -37,6 +38,11 @@
   
   The output of the command:
    ![Image](output2)
+   
+   
+  There is a very useful command that is `-r`, which allows grep to search through all files and subdirectories in a given directory. For example, if we just put `grep "Hongkong" written_2`, the output will always be `"grep: written_2/: Is a directory"`. However, when we put the input `grep -r "Hongkong" written`, the output is just like the example 1.
+  
+  Now, let's look at the example 2. We put `grep -r "Lucayans" written_2`. The output should be like the image in the Example 2.
   
 
 
@@ -51,7 +57,7 @@
 
 
 
-#### Example 1:
+#### * Example 1:
   The input of the command:
    ![Image](input3)
   
@@ -61,7 +67,7 @@
 
 
 
-#### Example 2:
+#### * Example 2:
   The input of the command:
    ![Image](input4)
   
@@ -81,7 +87,7 @@
 
 
 
-#### Example 1:
+#### * Example 1:
   The input of the command:
    ![Image](input5)
   
@@ -91,7 +97,7 @@
 
 
 
-#### Example 2:
+#### * Example 2:
   The input of the command:
    ![Image](input6)
   
@@ -109,7 +115,7 @@
 
 
 
-#### Example 1:
+#### * Example 1:
   The input of the command:
    ![Image](input7)
   
@@ -119,7 +125,7 @@
 
 
 
-#### Example 2:
+#### * Example 2:
   The input of the command:
    ![Image](input8)
   
@@ -131,8 +137,6 @@
  
  
  
-
-1
 
 
 ### That is all for the report 
