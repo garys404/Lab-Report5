@@ -22,12 +22,9 @@
   The input of the command:
    ![Image](input1)
   
- 
   The output of the command:
    ![Image](output1)
-  
-
-
+ 
 
 
 #### * Example 2:
@@ -42,18 +39,13 @@
    
   * There is a very useful command that is `-r`, which allows grep to search through all files and subdirectories in a given directory. For example, if we just put `grep "Hongkong" written_2`, the output will always be `"grep: written_2/: Is a directory"`. However, when we put the input `grep -r "Hongkong" written_2`, the output is just like the example 1.
   
-  * Now, let's look at the example 2. We put `grep -r "Lucayans" written_2`. The output should be like the image in the Example 2.
+  * Now, let's look at the example 2. We put `grep -r "Lucayans" written_2`. The output should be like the image in the Example 2.\
   
-
-
-
-
 
 
 ### 2. `grep -w` command 
 
 * The -w option only matches the whole word instead of a substring.
-
 
 
 
@@ -63,8 +55,6 @@
   
   The output of the command:
    ![Image](output3)
-
-
 
 
 #### * Example 2:
@@ -79,19 +69,13 @@
   * There is a very useful command that is `-w`, which only matches the whole word instead of a substring. In this command, we use to continue use the command that is `-r`,which allows grep to search through all files and subdirectories in a given directory. 
   * So, when we put the input `grep -r -w "inter" written_2`, the output is just like the example 1. `-w` command is a very useful command because it only matches the whole world instead of a substring. If we do the normal search, the output will also include "intership","interaction", and some words like that.
   
-  * Now, let's look at the example 2. We put `grep -r "relation" written_2`. The output should be like the image in the Example 2.
+  * Now, let's look at the example 2. We put `grep -r -w "relation" written_2`. The output should be like the image in the Example 2.\
   
-
-
-
-
 
 
 ### 3. `grep -n` command
 
 * The `-n` option displays the line number along with the matching line.
-
-
 
 
 #### * Example 1:
@@ -111,6 +95,11 @@
   The output of the command:
    ![Image](output6)
 
+
+  * There is a very useful command that is `-n`, which  displays the line number along with the matching line. In this command, we use to continue use the command that is `-r`,which allows grep to search through all files and subdirectories in a given directory. 
+  * So, when we put the input `grep -r -n "Lucayans" written_2`, the output is just like the example 1. The specific word appears in the line 6 and line 7 in the specific txt. `-n` command is a very useful command because it can contains the specific line, which displays the line number of the matching line.
+  
+  * Now, let's look at the example 2. We put `grep -r -n "Hongkong" written_2`. The output should be like the image in the Example 2.\
 
 
 
