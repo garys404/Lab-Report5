@@ -40,6 +40,8 @@
   * There is a very useful command that is `-r`, which allows grep to search through all files and subdirectories in a given directory. For example, if we just put `grep "Hongkong" written_2`, the output will always be `"grep: written_2/: Is a directory"`. However, when we put the input `grep -r "Hongkong" written_2`, the output is just like the example 1.
   
   * Now, let's look at the example 2. We put `grep -r "Lucayans" written_2`. The output should be like the image in the Example 2.
+
+Sources: I use the ChatGPT to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
   
 
 
@@ -71,6 +73,8 @@
   
   * Now, let's look at the example 2. We put `grep -r -w "relation" written_2`. The output should be like the image in the Example 2.
   
+  
+Sources: I use the ChatGPT to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
 
 
 ### 3. `grep -n` command
@@ -102,6 +106,9 @@
   * Now, let's look at the example 2. We put `grep -r -n "Hongkong" written_2`. The output should be like the image in the Example 2.
 
 
+Sources: I use the ChatGPT to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
+
+
 
 
 ### 4. `grep -i` command 
@@ -131,6 +138,8 @@
   * So, when we put the input `grep -r -i "hongkong" written_2`, the output is just like the example 1. There is a very interesting thing when we search "hongkong", the result of "Hongkong" will also appear. `-i` command is a very useful command when we want to perform a search that is not case-sensitive.
   
   * Now, let's look at the example 2. We put `grep -r -i "lucayans" written_2`. The output should be like the image in the Example 2.
+
+Sources: I use the ChatGPT to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
 
  
  
