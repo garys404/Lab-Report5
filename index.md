@@ -2,7 +2,7 @@
 ## Researching Commands
 ##### Today we will mainly focus on the `grep` command. 
 
-* a) First of all, we need to set up our database. The database that we need to use is a github repository you can find: : [Datbase you need to use]([https://sdacs.ucsd.edu/~icc/index.php](https://github.com/ucsd-cse15l-w23/skill-demo1-data)).
+* a) First of all, we need to set up our database. The database that we need to use is a github repository you can find: : [Datbase you need to use](https://github.com/ucsd-cse15l-w23/skill-demo1-data).
 * b) Next, if we want to enter "docsearch", so we need to `cd docsearch`.
 
 * c) Because we want to use the command-line options on files and directories from `./written_2`, there is one really useful thing we can do with any command is use output redirection to put whatever would be printed into a file. Then we can process that file with other commands. The `>` character does output redirection in bash.
