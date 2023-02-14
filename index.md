@@ -20,12 +20,13 @@
 
 #### Example 1:
   The input of the command:
- `garysong@Garys-MacBook-Pro docsearch-main % grep -n "Beijing" find-results.txt`
+  
+      garysong@Garys-MacBook-Pro docsearch-main % grep -n "Beijing" find-results.txt`
  
   The output of the command:
- `212:written_2//travel_guides/berlitz2/Beijing-History.txt
-  223:written_2//travel_guides/berlitz2/Beijing-WhereToGo.txt
-  235:written_2//travel_guides/berlitz2/Beijing-WhatToDo.txt`
+      212:written_2//travel_guides/berlitz2/Beijing-History.txt
+      223:written_2//travel_guides/berlitz2/Beijing-WhereToGo.txt
+      235:written_2//travel_guides/berlitz2/Beijing-WhatToDo.txt`
 
 #### Example 2:
  ![Image](VScodeDownload.png)
