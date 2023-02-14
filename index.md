@@ -2,7 +2,7 @@
 ## Researching Commands
 ##### Today we will mainly focus on the `grep` command. 
 
-* a) First of all, we need to copy the data that we want to search, so we need to `git clone https://github.com/ucsd-cse15l-w23/docsearch`.
+* a) First of all, we need to set up our database. The database that we need to use is a github repository you can find here [database we need to use today]([https://code.visualstudio.com/](https://github.com/ucsd-cse15l-w23/skill-demo1-data))
 
 * b) Next, if we want to enter "docsearch", so we need to `cd docsearch`.
 
@@ -32,16 +32,33 @@
       235:written_2//travel_guides/berlitz2/Beijing-WhatToDo.txt
 
 #### Example 2:
- ![Image](VScodeDownload.png)
+  The input of the command:
+  
+      garysong@Garys-MacBook-Pro docsearch-main % grep -n "China" find-results.txt
+  
+  The output of the command:
+  
+      185:written_2//travel_guides/berlitz2/China-WhereToGo.txt
+      
+      200:written_2//travel_guides/berlitz2/China-History.txt
+      
+      227:written_2//travel_guides/berlitz2/China-WhatToDo.txt
 
 ### 2. `grep -w` command 
 
 * The -w option only matches the whole word instead of a substring.
 
 #### Example 1:
- ![Image](VScodeDownload.png)
+  The input of the command:
+  
+  The output of the command:
+
 #### Example 2:
- ![Image](VScodeDownload.png)
+  The input of the command:
+  
+  The output of the command:
+  
+
 
 
 ### 3. `grep -v` command
@@ -49,18 +66,29 @@
 * The -v option inverts the match, so only the non-matching lines are displayed.
 
 #### Example 1:
- ![Image](VScodeDownload.png)
+  The input of the command:
+  
+  The output of the command:
+
 #### Example 2:
- ![Image](VScodeDownload.png)
+  The input of the command:
+  
+  The output of the command:
+
 
 ### 4. `grep -i` command 
 
 * This option is used to perform case-insensitive search.
 
 #### Example 1:
- ![Image](VScodeDownload.png)
+  The input of the command:
+  
+  The output of the command:
+
 #### Example 2:
- ![Image](VScodeDownload.png)
+  The input of the command:
+  
+  The output of the command:
 
  
  
