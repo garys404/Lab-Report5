@@ -2,7 +2,7 @@
 ## Researching Commands
 ##### Today we will mainly focus on the `grep` command. 
 
-* a) First of all, we need to set up our database. The database that we need to use is a github repository you can find: : [Datbase you need to use](https://github.com/ucsd-cse15l-w23/skill-demo1-data).
+* a) First of all, we need to set up our database. The database that we need to use is a github repository you can find : [Datbase you need to use](https://github.com/ucsd-cse15l-w23/skill-demo1-data).
 * b) Next, we need to copy our database that type `git clone https://github.com/ucsd-cse15l-w23/skill-demo1-data` in your bash command line.
 
 * c) After that, you need to `cd skill-demo1-data` and search the data from the tutorial of the dirtory of `written_2`.
