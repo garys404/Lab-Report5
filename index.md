@@ -2,7 +2,7 @@
 ## Researching Commands
 ##### Today we will mainly focus on the `grep` command. 
 
-* a) First of all, we need to set up our database. The database that we need to use is a github repository you can find here [database we need to use today]([https://code.visualstudio.com/](https://github.com/ucsd-cse15l-w23/skill-demo1-data))
+* a) First of all, we need to set up our database. The database that we need to use is a github repository you can find [database we need to use today]([https://code.visualstudio.com/](https://github.com/ucsd-cse15l-w23/skill-demo1-data))
 
 * b) Next, if we want to enter "docsearch", so we need to `cd docsearch`.
 
