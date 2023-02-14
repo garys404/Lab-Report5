@@ -6,11 +6,11 @@
 
 * b) Next, if we want to enter "docsearch", so we need to `cd docsearch`.
 
-* c) Because we want to use the command-line options on files and directories from ./written_2, there is one really useful thing we can do with any command is use output redirection to put whatever would be printed into a file. Then we can process that file with other commands. The `>` character does output redirection in bash.
+* c) Because we want to use the command-line options on files and directories from `./written_2`, there is one really useful thing we can do with any command is use output redirection to put whatever would be printed into a file. Then we can process that file with other commands. The `>` character does output redirection in bash.
 
-Try: `find written_2/ > find-results.txt`
+  Try: `find written_2/ > find-results.txt`
 
-`find-results.txt` has been created in the current directory, and that contains the data from written_2/. So we want to use the command-line options from `find-results.txt`.
+  `find-results.txt` has been created in the current directory, and that contains the data from `written_2/`. So we want to use the command-line options   from `find-results.txt`.
 
 ##### Now we can try the four interesting command-line options of the `grep` command !
 
