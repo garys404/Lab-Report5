@@ -41,7 +41,7 @@
   
   * Now, let's look at the example 2. We put `grep -r "Lucayans" written_2`. The output should be like the image in the Example 2.
 
-Sources: I use the ChatGPT to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
+Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
   
 
 
@@ -74,7 +74,7 @@ Sources: I use the ChatGPT to find how the command is used, and I also looked at
   * Now, let's look at the example 2. We put `grep -r -w "relation" written_2`. The output should be like the image in the Example 2.
   
   
-Sources: I use the ChatGPT to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
+Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
 
 
 ### 3. `grep -n` command
@@ -106,7 +106,7 @@ Sources: I use the ChatGPT to find how the command is used, and I also looked at
   * Now, let's look at the example 2. We put `grep -r -n "Hongkong" written_2`. The output should be like the image in the Example 2.
 
 
-Sources: I use the ChatGPT to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
+Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
 
 
 
@@ -139,7 +139,7 @@ Sources: I use the ChatGPT to find how the command is used, and I also looked at
   
   * Now, let's look at the example 2. We put `grep -r -i "lucayans" written_2`. The output should be like the image in the Example 2.
 
-Sources: I use the ChatGPT to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
+Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
 
  
  
