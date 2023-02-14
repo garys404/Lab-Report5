@@ -24,6 +24,7 @@
       garysong@Garys-MacBook-Pro docsearch-main % grep -n "Beijing" find-results.txt`
  
   The output of the command:
+  
       212:written_2//travel_guides/berlitz2/Beijing-History.txt
       
       223:written_2//travel_guides/berlitz2/Beijing-WhereToGo.txt
