@@ -3,45 +3,36 @@
 ##### Today we will mainly focus on the `grep` command. 
 
 * a) First of all, we need to set up our database. The database that we need to use is a github repository you can find: : [Datbase you need to use](https://github.com/ucsd-cse15l-w23/skill-demo1-data).
-* b) Next, if we want to enter "docsearch", so we need to `cd docsearch`.
+* b) Next, we need to copy our database that type `git clone https://github.com/ucsd-cse15l-w23/skill-demo1-data` in your bash command line.
 
-* c) Because we want to use the command-line options on files and directories from `./written_2`, there is one really useful thing we can do with any command is use output redirection to put whatever would be printed into a file. Then we can process that file with other commands. The `>` character does output redirection in bash.
-
-  Try: `find written_2/ > find-results.txt`
-
-  `find-results.txt` has been created in the current directory, and that contains the data from `./written_2`. So we want to use the command-line options   from `find-results.txt`.
+* c) After that, you need to `cd skill-demo1-data` and search the data from the tutorial of the dirtory of `written_2`.
 
 ##### Now we can try the four interesting command-line options of the `grep` command !
 
-### 1. `grep -n` command 
+### 1. `grep -r` command 
 
-* The `-n` option displays the line number along with the matching line.
+* The -r (or --recursive) option allows grep to search through all files and subdirectories in a given directory. This can be useful when searching for a particular string in multiple files.
 
 #### Example 1:
   The input of the command:
+   ![Image](input1.png)
   
-      garysong@Garys-MacBook-Pro docsearch-main % grep -n "Beijing" find-results.txt`
  
   The output of the command:
+   ![Image](output1.png)
   
-      212:written_2//travel_guides/berlitz2/Beijing-History.txt
-      
-      223:written_2//travel_guides/berlitz2/Beijing-WhereToGo.txt
-      
-      235:written_2//travel_guides/berlitz2/Beijing-WhatToDo.txt
+
 
 #### Example 2:
   The input of the command:
+   ![Image](input2.png)
   
-      garysong@Garys-MacBook-Pro docsearch-main % grep -n "China" find-results.txt
+  
   
   The output of the command:
+   ![Image](output2.png)
   
-      185:written_2//travel_guides/berlitz2/China-WhereToGo.txt
-      
-      200:written_2//travel_guides/berlitz2/China-History.txt
-      
-      227:written_2//travel_guides/berlitz2/China-WhatToDo.txt
+
 
 ### 2. `grep -w` command 
 
@@ -49,30 +40,38 @@
 
 #### Example 1:
   The input of the command:
+   ![Image](input3.png)
   
   The output of the command:
+   ![Image](output3.png)
 
 #### Example 2:
   The input of the command:
+   ![Image](input4.png)
   
   The output of the command:
+   ![Image](output4.png)
   
 
 
 
-### 3. `grep -v` command
+### 3. `grep -n` command
 
-* The -v option inverts the match, so only the non-matching lines are displayed.
+* The `-n` option displays the line number along with the matching line.
 
 #### Example 1:
   The input of the command:
+   ![Image](input5.png)
   
   The output of the command:
+   ![Image](output5.png)
 
 #### Example 2:
   The input of the command:
+   ![Image](input6.png)
   
   The output of the command:
+   ![Image](output6.png)
 
 
 ### 4. `grep -i` command 
@@ -81,13 +80,17 @@
 
 #### Example 1:
   The input of the command:
+   ![Image](input7.png)
   
   The output of the command:
+   ![Image](output7.png)
 
 #### Example 2:
   The input of the command:
+   ![Image](input8.png)
   
   The output of the command:
+   ![Image](output8.png)
 
  
  
