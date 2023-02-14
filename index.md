@@ -15,7 +15,7 @@
 
 #### Example 1:
   The input of the command:
-   ![Image](input1.png)
+   ![Image](input1)
   
  
   The output of the command:
