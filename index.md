@@ -10,34 +10,51 @@
 
   Try: `find written_2/ > find-results.txt`
 
-  `find-results.txt` has been created in the current directory, and that contains the data from `written_2/`. So we want to use the command-line options   from `find-results.txt`.
+  `find-results.txt` has been created in the current directory, and that contains the data from `./written_2`. So we want to use the command-line options   from `find-results.txt`.
 
 ##### Now we can try the four interesting command-line options of the `grep` command !
 
 ### 1. `grep -n` command 
 
-* The `-n` option displays the line number along with the matching line.
+*The `-n` option displays the line number along with the matching line.
 
 #### Example 1:
+ ![Image](VScodeDownload.png)
+
 #### Example 2:
  ![Image](VScodeDownload.png)
 
 ### 2. `grep -w` command 
-#### Example 1:
-#### Example 2:
 
+*The -w option only matches the whole word instead of a substring.
+
+#### Example 1:
+ ![Image](VScodeDownload.png)
+#### Example 2:
  ![Image](VScodeDownload.png)
 
+
 ### 3. `grep -v` command
+
+*The -v option inverts the match, so only the non-matching lines are displayed.
+
 #### Example 1:
+ ![Image](VScodeDownload.png)
 #### Example 2:
  ![Image](VScodeDownload.png)
 
 ### 4. `grep -i` command 
-#### Example 1:
-#### Example 2:
 
+*This option is used to perform case-insensitive search.
+
+#### Example 1:
  ![Image](VScodeDownload.png)
+#### Example 2:
+ ![Image](VScodeDownload.png)
+
+ 
+ 
+ 
  
  
 * Click the link: [How to Download Vscode](https://code.visualstudio.com/). The image of the link will be like that.
@@ -70,32 +87,6 @@
 3. You need to open the terminal in VScode and use `ssh` to connect remotely. Your command should be like `ssh cs15lwi23zz@ieng6.ucsd.edu` and `zz` should be replaced by the letters in your course-specific account.
 4. After inputing your password, if your successfully log in, your terminal will be like the following page.
 
-![Image](RemotelyConnecting.png)
 
-## 3. Trying Some Commands
-After you success in remotely connecting, you can try some commands in your terminal. There are some following commands that you can put in the terminal.
-
-* `cd ~`
-* `cd`
-* `ls -lat`
-* `ls -a`
-* `ls <directory>` where `<directory>` is `/home/linux/ieng6/cs15lwi23/cs15lwi23abc`, where the `abc` is the letters in your course-specific account
-* `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
-* `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
-
-The output will be like the following image.
-
-![Image](Commands.png)
-
-There are some key commands that you may be confused:
-* `cat <path1> <path2>` Prints the contents of one or more files given by the paths.
-* `ls <path>` "List" Used to list the files and folders the given path.
-* `pwd` "Print working directory" Used to display the current working directory.
-* `cd <path>` "Change Directory" Used to switch the current working directory to the given path.
-* `cd ~` Used to change directory to the home directory.
-* `cp /home/linux/ieng6/cs15lwi23/public/hello/txt ~/` Used to copy the hello.txt of original directory to home directory.
-* `ls` Used to list the components of the current directory.
-* `ls -a` Used to list the components of .file of current directory.
-* `ls -lat` Used to show the modify information of each file.
 
 ### That is all for the report 
