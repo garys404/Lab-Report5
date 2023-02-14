@@ -25,8 +25,10 @@
  
   The output of the command:
       212:written_2//travel_guides/berlitz2/Beijing-History.txt
+      
       223:written_2//travel_guides/berlitz2/Beijing-WhereToGo.txt
-      235:written_2//travel_guides/berlitz2/Beijing-WhatToDo.txt`
+      
+      235:written_2//travel_guides/berlitz2/Beijing-WhatToDo.txt
 
 #### Example 2:
  ![Image](VScodeDownload.png)
