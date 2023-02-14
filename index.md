@@ -19,18 +19,18 @@
   
  
   The output of the command:
-   ![Image](output1.png)
+   ![Image](output1)
   
 
 
 #### Example 2:
   The input of the command:
-   ![Image](input2.png)
+   ![Image](input2)
   
   
   
   The output of the command:
-   ![Image](output2.png)
+   ![Image](output2)
   
 
 
@@ -40,17 +40,17 @@
 
 #### Example 1:
   The input of the command:
-   ![Image](input3.png)
+   ![Image](input3)
   
   The output of the command:
-   ![Image](output3.png)
+   ![Image](output3)
 
 #### Example 2:
   The input of the command:
-   ![Image](input4.png)
+   ![Image](input4)
   
   The output of the command:
-   ![Image](output4.png)
+   ![Image](output4)
   
 
 
@@ -61,17 +61,17 @@
 
 #### Example 1:
   The input of the command:
-   ![Image](input5.png)
+   ![Image](input5)
   
   The output of the command:
-   ![Image](output5.png)
+   ![Image](output5)
 
 #### Example 2:
   The input of the command:
-   ![Image](input6.png)
+   ![Image](input6)
   
   The output of the command:
-   ![Image](output6.png)
+   ![Image](output6)
 
 
 ### 4. `grep -i` command 
@@ -80,17 +80,17 @@
 
 #### Example 1:
   The input of the command:
-   ![Image](input7.png)
+   ![Image](input7)
   
   The output of the command:
-   ![Image](output7.png)
+   ![Image](output7)
 
 #### Example 2:
   The input of the command:
-   ![Image](input8.png)
+   ![Image](input8)
   
   The output of the command:
-   ![Image](output8.png)
+   ![Image](output8)
 
  
  
