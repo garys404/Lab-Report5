@@ -9,9 +9,13 @@
 
 ##### Now we can try the four interesting command-line options of the `grep` command !
 
+
+
 ### 1. `grep -r` command 
 
 * The -r (or --recursive) option allows grep to search through all files and subdirectories in a given directory. This can be useful when searching for a particular string in multiple files.
+
+
 
 #### Example 1:
   The input of the command:
@@ -21,6 +25,8 @@
   The output of the command:
    ![Image](output1)
   
+
+
 
 
 #### Example 2:
@@ -34,9 +40,16 @@
   
 
 
+
+
+
+
 ### 2. `grep -w` command 
 
 * The -w option only matches the whole word instead of a substring.
+
+
+
 
 #### Example 1:
   The input of the command:
@@ -44,6 +57,9 @@
   
   The output of the command:
    ![Image](output3)
+
+
+
 
 #### Example 2:
   The input of the command:
@@ -55,9 +71,15 @@
 
 
 
+
+
+
 ### 3. `grep -n` command
 
 * The `-n` option displays the line number along with the matching line.
+
+
+
 
 #### Example 1:
   The input of the command:
@@ -65,6 +87,9 @@
   
   The output of the command:
    ![Image](output5)
+
+
+
 
 #### Example 2:
   The input of the command:
@@ -74,9 +99,15 @@
    ![Image](output6)
 
 
+
+
+
 ### 4. `grep -i` command 
 
 * This option is used to perform case-insensitive search.
+
+
+
 
 #### Example 1:
   The input of the command:
@@ -84,6 +115,9 @@
   
   The output of the command:
    ![Image](output7)
+
+
+
 
 #### Example 2:
   The input of the command:
@@ -97,27 +131,6 @@
  
  
  
-* Click the link: [How to Download Vscode](https://code.visualstudio.com/). The image of the link will be like that.
-
- ![Image](VScodeDownload.png)
-
-* Follow the steps of that website, find the suitable version for your computer, and download the VS code.
-
-* Open the VScode, and you should create "new file" or click "open" to open a file. It is like the following graph.
-
- ![Image](123.png)
-
-* After you open a file, you should click the second button circled with red in the top right corner to open terminal.
-
- ![Image](12345.png)
-
-* Next, you should click the "terminal", and put your commands at the red arrow.
-
- ![Image](1234567.png)
-
-* Congraduation! You can put your commands in the right way.
-
- ![Image](VScode.png)
 
 1
 
