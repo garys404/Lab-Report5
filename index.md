@@ -1,6 +1,6 @@
 # Lab Report 3
 ## Researching Commands
-* Today we will mainly focus on the `grep` command. 
+##### Today we will mainly focus on the `grep` command. 
 
 * a) First of all, we need to copy the data that we want to search, so we need to `git clone https://github.com/ucsd-cse15l-w23/docsearch`.
 
@@ -12,9 +12,10 @@ Try: `find written_2/ > find-results.txt`
 
 `find-results.txt` has been created in the current directory, and that contains the data from written_2/. So we want to use the command-line options from `find-results.txt`.
 
-###### Now we can try the four interesting command-line options of the `grep` command !
+##### Now we can try the four interesting command-line options of the `grep` command !
 
 ### 1. `grep -n` command 
+
 * The `-n` option displays the line number along with the matching line.
 
 #### Example 1:
