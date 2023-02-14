@@ -19,11 +19,11 @@
 
 #### * Example 1:
 
-  The input of the command:
+        The input of the command:
    ![Image](input1)
   
  
-  The output of the command:
+        The output of the command:
    ![Image](output1)
   
 
@@ -31,12 +31,12 @@
 
 
 #### * Example 2:
-  The input of the command:
+        The input of the command:
    ![Image](input2)
   
   
   
-  The output of the command:
+        The output of the command:
    ![Image](output2)
    
    
