@@ -16,8 +16,10 @@
 * The `-name` option of command `find` is used to search for files and directories in a given location.
 
 
-Here, the `.` specifies the current directory as the starting point for the search.
+
 #### * Example 1:
+
+Here, the `.` specifies the current directory as the starting point for the search.
 
   The input of the command:
    ![Image](in1.png)
@@ -65,8 +67,13 @@ There are some common single characters to represent the type of file or directo
 
 
 
-Here, the `.` specifies the current directory as the starting point for the search.
+
 #### * Example 1:
+
+
+Here, the `.` specifies the current directory as the starting point for the search.
+
+
   The input of the command:
    ![Image](in3.png)
   
@@ -86,7 +93,7 @@ Here, the `.` specifies the current directory as the starting point for the sear
   * There is a very useful command that is `-type` to find the specific type of file or directory that I want to search
   * So, just like the example 1, The `-type` option is followed by the argument `d`, which specifies that you want to search for directories. The output is all the directories.
   
-  * Now, let's look at the example 2. the -type option is followed by the argument f, which specifies that you want to search for regular files. The output is all the regular files. There are too many files in it.
+  * Now, let's look at the example 2. the `-type` option is followed by the argument `f`, which specifies that you want to search for regular files. The output is all the regular files. There are too many files in it.
   
   
 Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man find command in terminal. 
@@ -109,9 +116,12 @@ The -size option takes a size argument, which can be specified in bytes, kilobyt
 
 
 
+
+#### * Example 1:
+
 Here, the `.` specifies the current directory as the starting point for the search. 
 The `-type` option is followed by the argument f, which shows we want to search for regular files.
-#### * Example 1:
+
   The input of the command:
    ![Image](in5.png)
   
@@ -145,9 +155,11 @@ Sources: I use the **ChatGPT** to find how the command is used, and I also looke
 * The `-maxdepth`option of command `find` is used to limit the depth of the search, which means it can limit limit the depth of the search to a specified number of levels.
 
 
-Here, the `.` specifies the current directory as the starting point for the search. 
 
 #### * Example 1:
+
+Here, the `.` specifies the current directory as the starting point for the search.
+
   The input of the command:
    ![Image](in7.png)
   
@@ -164,7 +176,7 @@ Here, the `.` specifies the current directory as the starting point for the sear
    ![Image](out8.png)
 
 
-  * There is a very useful command that is `-mtime`,which can help us to find the limited depth of our search. If a very large value for `-maxdepth` can result in a long search that can consume a lot of system resources.
+  * There is a very useful command that is `-maxdepth`,which can help us to find the limited depth of our search. If a very large value for `-maxdepth` can result in a long search that can consume a lot of system resources.
   * So, just like the example 1. The -maxdepth option is followed by the argument 4, which specifies that you want to limit the search to a depth of 4 levels. The -type option is followed by the argument f, which specifies that you want to search for regular files. 
   
   * Now, let's look at the example 2. The -maxdepth option is followed by the argument 2, which specifies that you want to limit the search to a depth of 2 levels(the current directory and its immediate subdirectories). The -type option is followed by the argument f, which specifies that you want to search for regular files. 
