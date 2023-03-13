@@ -50,11 +50,17 @@ Sources: I use the **ChatGPT** to find how the command is used, and I also looke
 * The `-type` option of command `find` is used to specify the type of file or directory that you want to search for. In addition, the option takes a single character to represent the type of file or directory.
 
 There are some common single characters to represent the type of file or directory:
+
 -- f: Regular file
+
 -- d: Directory
+
 -- l: Symbolic link
+
 -- b: Block device
+
 -- c: Character device
+
 
 
 Here, the `.` specifies the current directory as the starting point for the search.
