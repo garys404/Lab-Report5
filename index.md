@@ -39,7 +39,7 @@ Here, the `.` specifies the current directory as the starting point for the sear
    ![Image](out2.png)
    
    
-  * There is a very useful command that is `-name`. If there are multiple files with the same name, the find command will return a list of all matching files. You can also use wildcards such as `*` in the pattern to match a broader range of file names. Just like the examples 1, the above command will search for all files with names that start with "History" and have a .txt extension.
+  * There is a very useful command that is `-name`. If there are multiple files with the same name, the find command will return a list of all matching files. We can also use wildcards such as `*` in the pattern to match a large range of file names. Just like the examples 1, the above command will search for all files with names that start with "History" and have a .txt extension.
   
   * Now, let's look at the example 2. the above command will search for all files with names that start with "What" and have a .txt extension.
 
@@ -49,7 +49,7 @@ Sources: I use the **ChatGPT** to find how the command is used, and I also looke
 
 ### 2. `-type` option:
 
-* The `-type` option of command `find` is used to specify the type of file or directory that you want to search for. In addition, the option takes a single character to represent the type of file or directory.
+* The `-type` option of command `find` is used to specify the type of file or directory that we want to search for. In addition, the option takes a single character to represent the type of file or directory.
 
 There are some common single characters to represent the type of file or directory:
 
@@ -90,10 +90,10 @@ Here, the `.` specifies the current directory as the starting point for the sear
    
    
    
-  * There is a very useful command that is `-type` to find the specific type of file or directory that I want to search
-  * So, just like the example 1, The `-type` option is followed by the argument `d`, which specifies that you want to search for directories. The output is all the directories.
+  * There is a very useful command that is `-type` to find the specific type of file or directory that we want to search.
+  * So, just like the example 1, The `-type` option is followed by the argument `d`, which shows that we search for directories. The output is all the directories.
   
-  * Now, let's look at the example 2. the `-type` option is followed by the argument `f`, which specifies that you want to search for regular files. The output is all the regular files. There are too many files in it.
+  * Now, let's look at the example 2. the `-type` option is followed by the argument `f`, which shows that we search for regular files. The output is all the regular files. There are too many files in it.
   
   
 Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man find command in terminal. 
@@ -177,9 +177,9 @@ Here, the `.` specifies the current directory as the starting point for the sear
 
 
   * There is a very useful command that is `-maxdepth`,which can help us to find the limited depth of our search. If a very large value for `-maxdepth` can result in a long search that can consume a lot of system resources.
-  * So, just like the example 1. The -maxdepth option is followed by the argument 4, which specifies that you want to limit the search to a depth of 4 levels. The -type option is followed by the argument f, which specifies that you want to search for regular files. 
+  * So, just like the example 1. The -maxdepth option is followed by the argument 4, which shows that we want to limit the search to a depth of 4 levels. The -type option is followed by the argument f, which shows that we search for regular files. 
   
-  * Now, let's look at the example 2. The -maxdepth option is followed by the argument 2, which specifies that you want to limit the search to a depth of 2 levels(the current directory and its immediate subdirectories). The -type option is followed by the argument f, which specifies that you want to search for regular files. 
+  * Now, let's look at the example 2. The -maxdepth option is followed by the argument 2, which shows that we want to limit the search to a depth of 2 levels(the current directory and its immediate subdirectories). The -type option is followed by the argument f, which shows that we search for regular files. 
 
 Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man find command in terminal. 
 
