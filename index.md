@@ -20,21 +20,21 @@ Here, the `.` specifies the current directory as the starting point for the sear
 #### * Example 1:
 
   The input of the command:
-   ![Image](in1)
+   ![Image](in1.png)
   
   The output of the command:
-   ![Image](out1)
+   ![Image](out1.png)
  
 
 
 #### * Example 2:
   The input of the command:
-   ![Image](in2)
+   ![Image](in2.png)
   
   
   
   The output of the command:
-   ![Image](out2)
+   ![Image](out2.png)
    
    
   * There is a very useful command that is `-name`. If there are multiple files with the same name, the find command will return a list of all matching files. You can also use wildcards such as `*` in the pattern to match a broader range of file names. Just like the examples 1, the above command will search for all files with names that start with "History" and have a .txt extension.
@@ -60,18 +60,18 @@ There are some common single characters to represent the type of file or directo
 Here, the `.` specifies the current directory as the starting point for the search.
 #### * Example 1:
   The input of the command:
-   ![Image](in3)
+   ![Image](in3.png)
   
   The output of the command:
-   ![Image](out3)
+   ![Image](out3.png)
 
 
 #### * Example 2:
   The input of the command:
-   ![Image](in4)
+   ![Image](in4.png)
   
   The output of the command:
-   ![Image](out4)
+   ![Image](out4.png)
    
    
    
@@ -100,20 +100,20 @@ Here, the `.` specifies the current directory as the starting point for the sear
 The `-type` option is followed by the argument f, which shows we want to search for regular files.
 #### * Example 1:
   The input of the command:
-   ![Image](in5)
+   ![Image](in5.png)
   
   The output of the command:
-   ![Image](out5)
+   ![Image](out5.png)
 
 
 
 
 #### * Example 2:
   The input of the command:
-   ![Image](in6)
+   ![Image](in6.png)
   
   The output of the command:
-   ![Image](out6)
+   ![Image](out6.png)
 
 
   * There is a very useful command that is `-size`, which search the proper size that we want.
@@ -136,19 +136,19 @@ Here, the `.` specifies the current directory as the starting point for the sear
 
 #### * Example 1:
   The input of the command:
-   ![Image](in7)
+   ![Image](in7.png)
   
   The output of the command:
-   ![Image](out7)
+   ![Image](out7.png)
 
 
 
 #### * Example 2:
   The input of the command:
-   ![Image](in8)
+   ![Image](in8.png)
   
   The output of the command:
-   ![Image](out8)
+   ![Image](out8.png)
 
 
   * There is a very useful command that is `-mtime`,which can help us to find the limited depth of our search. If a very large value for `-maxdepth` can result in a long search that can consume a lot of system resources.
