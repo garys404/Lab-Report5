@@ -41,7 +41,7 @@ Here, the `.` specifies the current directory as the starting point for the sear
   
   * Now, let's look at the example 2. the above command will search for all files with names that start with "What" and have a .txt extension.
 
-Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
+Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man find command in terminal. 
   
 
 
@@ -81,7 +81,7 @@ Here, the `.` specifies the current directory as the starting point for the sear
   * Now, let's look at the example 2. the -type option is followed by the argument f, which specifies that you want to search for regular files. The output is all the regular files. There are too many files in it.
   
   
-Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
+Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man find command in terminal. 
 
 
 ### 3. `-size` option:
@@ -122,40 +122,41 @@ The `-type` option is followed by the argument f, which shows we want to search 
   * Now, let's look at the example 2. `-size` is followed by the aguement `-5k`, which means I want to search for files smaller than 5 kilobytes in the current directory and its subdirectories.
 
 
-Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
+Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man find command in terminal. 
 
 
 
 
-### 4. `-mtime` command: 
+### 4. `-maxdepth` command: 
 
-* This option is used to perform case-insensitive search.
+* The `-maxdepth`option of command `find` is used to limit the depth of the search, which means it can limit limit the depth of the search to a specified number of levels.
 
 
+Here, the `.` specifies the current directory as the starting point for the search. 
 
 #### * Example 1:
   The input of the command:
-   ![Image](input7)
+   ![Image](in7)
   
   The output of the command:
-   ![Image](output7)
+   ![Image](out7)
 
 
 
 #### * Example 2:
   The input of the command:
-   ![Image](input8)
+   ![Image](in8)
   
   The output of the command:
-   ![Image](output8)
+   ![Image](out8)
 
 
-  * There is a very useful command that is `-i`, which is used to perform case-insensitive search. In this command, we use to continue use the command that is `-r`,which allows grep to search through all files and subdirectories in a given directory. 
-  * So, when we put the input `grep -r -i "hongkong" written_2`, the output is just like the example 1. There is a very interesting thing when we search "hongkong", the result of "Hongkong" will also appear. `-i` command is a very useful command when we want to perform a search that is not case-sensitive.
+  * There is a very useful command that is `-mtime`,which can help us to find the limited depth of our search. If a very large value for `-maxdepth` can result in a long search that can consume a lot of system resources.
+  * So, just like the example 1. The -maxdepth option is followed by the argument 4, which specifies that you want to limit the search to a depth of 4 levels. The -type option is followed by the argument f, which specifies that you want to search for regular files. 
   
-  * Now, let's look at the example 2. We put `grep -r -i "lucayans" written_2`. The output should be like the image in the Example 2.
+  * Now, let's look at the example 2. The -maxdepth option is followed by the argument 2, which specifies that you want to limit the search to a depth of 2 levels(the current directory and its immediate subdirectories). The -type option is followed by the argument f, which specifies that you want to search for regular files. 
 
-Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man grep coomand in terminal. 
+Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man find command in terminal. 
 
  
  
