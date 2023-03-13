@@ -63,6 +63,8 @@ There are some common single characters to represent the type of file or directo
 
 
 
+
+
 Here, the `.` specifies the current directory as the starting point for the search.
 #### * Example 1:
   The input of the command:
@@ -90,6 +92,7 @@ Here, the `.` specifies the current directory as the starting point for the sear
 Sources: I use the **ChatGPT** to find how the command is used, and I also looked at many examples of the man find command in terminal. 
 
 
+
 ### 3. `-size` option:
 
 * The `-size` option of command `find` is used to search the files based on their sizes, so we can use this option to find files that are larger or smaller than a specific size.
@@ -97,9 +100,13 @@ Sources: I use the **ChatGPT** to find how the command is used, and I also looke
 The -size option takes a size argument, which can be specified in bytes, kilobytes (KB), megabytes (MB), or gigabytes (GB). 
 
 -- c: Size in bytes
+
 -- k: Size in kilobytes (1024 bytes)
+
 -- M: Size in megabytes (1024 kilobytes)
+
 -- G: Size in gigabytes (1024 megabytes)
+
 
 
 Here, the `.` specifies the current directory as the starting point for the search. 
