@@ -1,5 +1,5 @@
-# Lab Report 3
-## Researching Commands
+# Lab Report 5
+## Researching Commands Again
 ##### Today we will mainly focus on the `find` command. 
 
 * a) First of all, we need to set up our database. The database that we need to use is a github repository you can find : [Datbase you need to use](https://github.com/ucsd-cse15l-w23/skill-demo1-data).
