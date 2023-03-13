@@ -1,6 +1,6 @@
 # Lab Report 3
 ## Researching Commands
-##### Today we will mainly focus on the `grep` command. 
+##### Today we will mainly focus on the `find` command. 
 
 * a) First of all, we need to set up our database. The database that we need to use is a github repository you can find : [Datbase you need to use](https://github.com/ucsd-cse15l-w23/skill-demo1-data).
 * b) Next, we need to copy our database that type `git clone https://github.com/ucsd-cse15l-w23/skill-demo1-data` in your bash command line.
